@@ -620,6 +620,10 @@ video {
   --tw-border-opacity: 1;
   border-color: rgb(209 213 219 / var(--tw-border-opacity, 1));
 }
+.bg-angelPaleta-custom-green {
+  --tw-bg-opacity: 1;
+  background-color: rgb(145 203 62 / var(--tw-bg-opacity, 1));
+}
 .bg-gray-50 {
   --tw-bg-opacity: 1;
   background-color: rgb(249 250 251 / var(--tw-bg-opacity, 1));
@@ -659,10 +663,6 @@ video {
 .bg-yellow-100 {
   --tw-bg-opacity: 1;
   background-color: rgb(254 249 195 / var(--tw-bg-opacity, 1));
-}
-.bg-angelPaleta-custom-green {
-  --tw-bg-opacity: 1;
-  background-color: rgb(145 203 62 / var(--tw-bg-opacity, 1));
 }
 .p-2 {
   padding: 0.5rem;
@@ -745,6 +745,18 @@ video {
 .uppercase {
   text-transform: uppercase;
 }
+.text-angelPaleta-custom-green {
+  --tw-text-opacity: 1;
+  color: rgb(145 203 62 / var(--tw-text-opacity, 1));
+}
+.text-angelPaleta-custom-sea-green {
+  --tw-text-opacity: 1;
+  color: rgb(76 147 76 / var(--tw-text-opacity, 1));
+}
+.text-angelPaleta-dark-gray {
+  --tw-text-opacity: 1;
+  color: rgb(51 51 51 / var(--tw-text-opacity, 1));
+}
 .text-gray-500 {
   --tw-text-opacity: 1;
   color: rgb(107 114 128 / var(--tw-text-opacity, 1));
@@ -773,18 +785,6 @@ video {
   --tw-text-opacity: 1;
   color: rgb(133 77 14 / var(--tw-text-opacity, 1));
 }
-.text-angelPaleta-custom-green {
-  --tw-text-opacity: 1;
-  color: rgb(145 203 62 / var(--tw-text-opacity, 1));
-}
-.text-angelPaleta-custom-sea-green {
-  --tw-text-opacity: 1;
-  color: rgb(76 147 76 / var(--tw-text-opacity, 1));
-}
-.text-angelPaleta-dark-gray {
-  --tw-text-opacity: 1;
-  color: rgb(51 51 51 / var(--tw-text-opacity, 1));
-}
 .placeholder-gray-400::-moz-placeholder {
   --tw-placeholder-opacity: 1;
   color: rgb(156 163 175 / var(--tw-placeholder-opacity, 1));
@@ -806,19 +806,14 @@ video {
     color: #FFF;
 }
 
-.hover\:bg-indigo-400:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(129 140 248 / var(--tw-bg-opacity, 1));
-}
-
-.hover\:bg-indigo-700:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(67 56 202 / var(--tw-bg-opacity, 1));
-}
-
 .hover\:bg-angelPaleta-custom-green-hover:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(83 165 72 / var(--tw-bg-opacity, 1));
+}
+
+.hover\:bg-indigo-400:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(129 140 248 / var(--tw-bg-opacity, 1));
 }
 
 @media (min-width: 768px) {
